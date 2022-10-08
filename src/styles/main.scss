@@ -1,0 +1,116 @@
+.header {
+	margin-top: 30px;
+ 	display: flex;
+ 	justify-content: center;
+ 	gap: 3%;
+	 user-select: none;
+&-button_logo{
+	border: none;
+ 	 background: transparent;
+	.logo{
+	cursor: pointer;
+	}
+}
+&-search_container {
+		width: 50%;
+		position: relative;
+
+	.header-search{
+		width: 100% ;
+		height: 50px;
+		padding-left: 50px;
+		border-radius: 30px 30px 30px 30px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		letter-spacing: 0.1em;
+		border: none;
+		background-color: rgba(128, 128, 128, 0.132);			
+	}
+	.header-search_icon{
+		width: 48px;
+		height: 48px;
+		position: absolute;
+		left: 5px;
+		padding: 10px;
+		}
+}
+&-button_list{
+	border: none; 
+  	background: transparent;
+.header-button_list-icon{
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+	}
+}
+}
+.body{
+	user-select: none;
+	margin: 30px;
+	display: grid;
+	justify-content: center;
+	gap: 30px;
+	grid-template-areas:
+		 "a . c ."
+		 "a b c d"
+		 "a b c d"
+		 "a b c d"
+		 "e b g d"
+		 "e . g ."
+		 "e f g h"
+		 "e f g h"
+		 "e f g h"
+		 "i f k h"
+		 "i . k ."
+		 "i j k l"
+		 "i j k l"
+		 "i j k l"
+		 "i j k l"
+		 ". j . l";
+	&-container{
+		&_picture{
+			.picture{
+				width: 200px;
+				height: 300px;
+				border-radius: 20px 20px 20px 20px;
+				cursor: zoom-in;
+			}
+		}
+		&_description{
+			margin-top: 10px;
+			display: flex;
+			gap: 15px;
+			.avatar{
+				width: 50px;
+				height: 50px;
+				border-radius:50%;
+				cursor: pointer;
+			}
+			.tag{
+				font-family: 'Open Sans', sans-serif;
+				font-size: 16px;
+				letter-spacing: 0.1em;
+				transform: translateY(25%);
+				max-width: 125px;
+				white-space: nowrap; 
+				overflow: hidden; 
+				text-overflow: ellipsis; 
+				cursor: pointer;
+
+			}
+		}
+}
+.a{grid-area: a;}
+.b{grid-area: b;}
+.c{grid-area: c;}
+.d{grid-area: d;}
+
+.e{grid-area: e;}
+.f{grid-area: f;}
+.g{grid-area: g;}
+.h{grid-area: h;}
+.i{grid-area: i;}
+.j{grid-area: j;}
+.k{grid-area: k;}
+.l{grid-area: l;}
+}
