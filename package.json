@@ -1,10 +1,10 @@
 {
-	"name": "Pinterest",
+	"name": "pinterest",
 	"version": "1.0.0",
 	"description": "",
 	"source": "src/index.html",
 	"scripts": {
-		"start": "parcel",
+		"start": "parcel --port 3001 --open",
 		"build": "parcel build"
 	},
 	"author": "KaterinaTomashenko",
