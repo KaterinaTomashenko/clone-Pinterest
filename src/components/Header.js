@@ -30,37 +30,7 @@ const Header = () => {
 	
 		events: {
 			input: inputSearch
-			// const input= document.querySelector('#input');
-			// input.oninput = function () {
-			// 	let value = this.value.trim();
-			// 	let search=Cart.description
-
-			// 	if (value != '') {
-			// 		search.forEach(element => {
-			// 			if (element.innerText.search(value) == -1) {
-			// 				element.classList.add('hide')
-			// 			}
-			// 		});
-			// 	}
-			// 	else {
-			// 		search.forEach(element => {
-			// 			element.classList.remove()
-			// 		})
-			// 	}
-
-
-			// }
-
-
-
-
-		}
-		// 	input: (evt) => {
-		// 		BoxCarts(Cart.description.filter(description => description.toLowerCase().startsWith(evt.target.value))
-		// 		)
-		// 	}
-		// }
-	
+			}
 	});
 
 	const header_ListIcon = createElement("img", [], { cssClass: ["header-button_list-icon"], attrs: { src: iconDownArrow, alt:"parameters"},});
